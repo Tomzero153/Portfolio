@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+   /* background-color: #34353A;  */
+}
+body{
+  background-color: #3d3e42;
+}
+
+@layer utilities {
+  .bg-slate-700 {
+    background-color: #31333b;
+  }
+  
+  .bg-slate-800 {
+    background-color: #3d3e42;
+  }
+  .decoration-yellow-400
+  {
+  text-decoration-color: #f5c96c;
+  }
+  .text-yellow-400
+  {
+    color: #f5c96c;
+  }
+   .bg-yellow-400
+   {
+    background-color: #f5c96c;
+   }
+}
