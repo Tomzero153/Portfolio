@@ -1,0 +1,14 @@
+.animated-text {
+    animation: slideIn 2s ease infinite; /* กำหนดคุณสมบัติ animation */
+  }
+  
+  @keyframes slideIn {
+    0% {
+      transform: translateY(50px); /* เริ่มต้นที่ตำแหน่งแนวดิ่ง 50px */
+      opacity: 0; /* ความโปร่งใสเริ่มต้นที่ 0 */
+    }
+    100% {
+      transform: translateY(0); /* สิ้นสุดที่ตำแหน่งแนวดิ่ง 0 */
+      opacity: 1; /* ความโปร่งใสสิ้นสุดที่ 1 */
+    }
+  }

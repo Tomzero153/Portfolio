@@ -11,11 +11,11 @@ const Experience = () => {
 
   })
   return ( 
-    <div className=" h-svh w-full">
+    <div className="h-auto w-full mb-[200px]">
 
 <div className="mt-5 ">
-    <h2 className="text-left text-white sm:text-8xl  underline underline-offset-8 decoration-yellow-400" data-aos="fade-up">
-    Experience
+    <h2 className="md:text-left text-white sm:text-8xl text-4xl  underline underline-offset-8 decoration-yellow-400" data-aos="fade-up">
+    Experience 
     </h2>
   <div className='mt-10 text-left' data-aos="fade-right">
   <ul
