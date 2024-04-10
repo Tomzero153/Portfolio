@@ -24,7 +24,7 @@ const Skill = () => {
 
   })
   return (
-    <div className=" h-auto w-full mb-[200px]">
+    <div className=" h-auto xl:w-[1280px] w-full m-auto mb-[200px]">
       <div className="mt-5  ">
         <h2 className="md:text-left text-white sm:text-8xl text-4xl  underline underline-offset-8 decoration-yellow-400"  data-aos="fade-up">
           MY SKILL

@@ -15,7 +15,7 @@ const About = () => {
 
   })
   return (
-    <div className=" h-[auto] w-full mb-[200px]">
+    <div className=" h-[auto] xl:w-[1280px] w-full m-auto mb-[200px]">
       <div className="mt-5 ">
         <h2 className="md:text-left  text-white sm:text-8xl text-4xl  underline underline-offset-8 decoration-yellow-400" data-aos="fade-up">ABOUT ME</h2>
         <div className="flex  md:flex-nowrap flex-wrap  mt-10  justify-center ">
@@ -24,7 +24,7 @@ const About = () => {
             </div>
             <div className=" w-4/6 md:ml-20 md:mt-0  mt-5" data-aos="fade-left">
             <p className="text-left  text-yellow-400 sm:text-3xl  underline underline-offset-8 decoration-yellow-400">THATTAPONG ROMJAROEN</p>
-           <p className="sm:text-xl text-left mt-5 text-white">My name is Thattapong , and I am an electronic engineer with 5 years of experience working as a Test Development Engineer. In this role, I specialized in writing programs using C# .NET to control microcontrollers and measurement instruments</p>
+           <p className="sm:text-xl text-left mt-5 text-white">My name is Thattapong , and I am an electronic engineer with 5 years of experience working as a Test Development Engineer. In this role, I specialized in develop programs using C# .NET to control microcontrollers and measurement instruments</p>
            <p className="sm:text-xl text-left  mt-3 text-white">Currently, I am expanding my skills in web development by learning React and Next.js.</p>
            <p className="sm:text-xl text-left mt-3 text-white">With a basic foundation in programming and an understanding of the field of electronic engineering. I believe I have the ability to effectively apply my knowledge and skills in the field of Web Development.</p>
            <p className="sm:text-xl text-left mt-3 text-white">Furthermore, I am passionate about continuous learning and self-improvement. I am ready to tackle any challenges and further develop my abilities.</p>

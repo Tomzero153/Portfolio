@@ -19,19 +19,19 @@ const Home = () => {
   return (
     
     
-    <div className=' h-svh w-full'>
+    <div className=' h-svh xl:w-[1280px]  w-full m-auto'>
      
      <div className='h-svh flex items-center justify-center'>
-     <div className="flex flex-col gap-y-3 sm:mb-0 sm:gap-y-8 items-start sm:items-center">
-            <span className="text-5xl font-bold tracking-tight text-white sm:text-9xl ">
+     <div className="flex  flex-col gap-y-3 sm:mb-0 sm:gap-y-8 items-start items-center">
+            <span className="font-bold tracking-tight text-white lg:text-9xl  md:text-7xl text-5xl ">
             HI,THERE I AM 
             </span>
 
-            <span className="text-5xl font-bold tracking-tight text-yellow-400 sm:text-9xl ">THATTAPONG
+            <span className=" font-bold tracking-tight text-yellow-400 lg:text-9xl  md:text-7xl text-5xl ">THATTAPONG
               </span>
     
-            <p className=" mt-4 sm:text-2xl text-xl leading-8 text-white">
-            {text}|
+            <p className=" mt-4 lg:text-2xl md:text-lg text-base leading-8 text-white">
+           {text}
             </p>
             
           </div>

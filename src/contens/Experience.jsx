@@ -11,13 +11,13 @@ const Experience = () => {
 
   })
   return ( 
-    <div className="h-auto w-full mb-[200px]">
+    <div className="h-auto xl:w-[1280px] w-full m-auto mb-[200px]">
 
 <div className="mt-5 ">
     <h2 className="md:text-left text-white sm:text-8xl text-4xl  underline underline-offset-8 decoration-yellow-400" data-aos="fade-up">
     Experience 
     </h2>
-  <div className='mt-10 text-left' data-aos="fade-right">
+  <div className='mt-10 md:pl-10  text-left' data-aos="fade-right">
   <ul
     aria-label="Changelog feed"
     role="feed"
@@ -28,14 +28,14 @@ const Experience = () => {
       className="relative pl-8 before:absolute before:left-0 before:top-2 before:z-10 before:h-4 before:w-4 before:-translate-x-1/2 before:rounded-full before:bg-yellow-400 before:ring-2 before:ring-white"
     >
       <div className="flex flex-col flex-1 gap-4">
-        <h4 className="text-lg   font-bold  text-yellow-400 sm:text-4xl">
+        <h4 className="  text-lg  font-bold  text-yellow-400 sm:text-4xl">
           Test Develop Engineer{" "}
-          <br /><span className="text-lg font-normal  text-white">
+          <br /><span className="md:text-xl text-base  font-normal  text-white">
             {" "}
             5 year (2018 - 2023) at  TEAM PRECISION PCL
           </span>{" "}
         </h4>
-        <ul className="pl-5 list-disc  text-white marker:text-yellow-400">
+        <ul className="md:text-lg text-base pl-5 list-disc  text-white marker:text-yellow-400">
           <li>Develop Automation Programing(<span className=' text-yellow-500'>C# .Net</span>)</li>
           <li>Create Automation Functional Tester(FCT)</li>
         </ul>
