@@ -28,7 +28,7 @@ const Slider = ({ slides }) => {
       }}
     >
       {slides.map((s) => {
-        return <img className=" rounded border-2  border-b-gray-600" src={s} />;
+        return <img className=" rounded border-2  border-gray-300" src={s} />;
       })}
     </div>
 

@@ -7,14 +7,14 @@ import silde1 from "../assets/home.png";
 import silde2 from "../assets/item.png";
 import silde3 from "../assets/cart.png";
 import silde4 from "../assets/admin.png";
-
+import silde5 from "../assets/account.png";
 import pos1 from "../assets/P1.png";
 import pos2 from "../assets/P2.png";
 import pos3 from "../assets/P3.png";
 
 const Portfolio = () => {
   let slides2 = [pos1, pos2, pos3];
-  let slides = [silde1, silde2, silde3, silde4];
+  let slides = [silde1, silde2, silde3, silde4,silde5];
   return (
     <>
       {/*<!-- Component: Slider with indicators & controls inside --> */}
@@ -55,14 +55,18 @@ const Portfolio = () => {
               </p>
               <div className="sm:text-xl text-base flex mt-10  justify-center ">
                 <div className=" flex gap-5 md:text-2xl text-base justify-between">
+                <a href="https://nextgenmarketplace-32c72ba3f33b.herokuapp.com/">
                   <button className="md:p-3 p-2 bg-slate-700 text-white rounded-md hover:bg-yellow-400">
                     {" "}
                     LIVE DEMO{" "}
                   </button>
+                  </a>
+                  <a href="https://github.com/Tomzero153/ecom_nextgen">
                   <button className="md:p-3 p-2 bg-slate-700 text-white rounded-md hover:bg-yellow-400">
                     {" "}
                     SOURCE CODE
                   </button>
+                  </a>
                 </div>
                 {/* <div className="sm:text-xl   text-base flex ml-10  h-10 ">
             <button className='p-2 bg-slate-700 text-white rounded-md hover:bg-yellow-400'> LIVE DEMO </button>
@@ -105,11 +109,12 @@ const Portfolio = () => {
                     {" "}
                     LIVE DEMO{" "}
                   </button> */}
-                  <a href="https://github.com/Tomzero153/Portfolio"></a>
+                  <a href="https://github.com/Tomzero153/Portfolio">
                   <button className="md:p-3 p-2 bg-slate-700 text-white rounded-md hover:bg-yellow-400">
                     {" "}
                     SOURCE CODE
                   </button>
+                  </a>
                 </div>
               </div>
             </div>
